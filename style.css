@@ -1,0 +1,24 @@
+/* style.css */
+
+/* Custom banner styling */
+.banner {
+  background-image: url('path/to/your/banner-image.png'); /* Update path as needed */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Optional dark overlay for text readability */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Custom font for headers (optional) */
+h1, h2, h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hover animation for YouTube links */
+a:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.05);
+}
